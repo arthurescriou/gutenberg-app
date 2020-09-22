@@ -87,7 +87,7 @@ export default {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  min-width: 20rem;
+  width: 20rem;
   background: white;
   padding: 2rem;
   margin: 1rem;
