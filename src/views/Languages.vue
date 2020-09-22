@@ -1,7 +1,7 @@
 <template lang="html">
   <div class="languages">
     <div class="title">
-      Choisir une langue
+      Choose language
     </div>
     <div class="grid">
       <div

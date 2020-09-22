@@ -1,7 +1,7 @@
 <template lang="html">
   <div class="books">
     <div class="title">
-      {{ $route.params.lang }}
+      {{ $route.params.lang + ' books' }}
     </div>
     <div
       class="book"
@@ -26,4 +26,12 @@ export default {
 }
 </script>
 
-<style lang="css" scoped></style>
+<style lang="css" scoped>
+.title {
+  font-weight: 700;
+  line-height: 1.3em;
+  font-size: 2.3em;
+  padding-bottom: 4rem;
+  text-align: center;
+}
+</style>

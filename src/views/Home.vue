@@ -6,14 +6,14 @@
     </div>
     <div class="links">
       <div class="link">
-        <router-link to="/lang">Trouver des livres</router-link>
+        <router-link to="/lang">Find books</router-link>
       </div>
       <div class="link">
         <a
           target="_blank"
           rel="noopener noreferrer"
           href="https://www.gutenberg.org/"
-          >Le projet Gutenberg</a
+          >The Gutenberg project</a
         >
       </div>
       <div class="link">
@@ -21,7 +21,7 @@
           target="_blank"
           rel="noopener noreferrer"
           href="https://www-apr.lip6.fr/~buixuan/daar2019"
-          >Le cours de DAAR</a
+          >DAAR</a
         >
       </div>
       <div class="link">
@@ -29,7 +29,7 @@
           target="_blank"
           rel="noopener noreferrer"
           href="https://github.com/arthurescriou/gutenberg-app"
-          >Le code de cette appli</a
+          >This app repository</a
         >
       </div>
     </div>
