@@ -62,10 +62,19 @@
   padding: 3rem;
   border-radius: 12px;
 }
+
 .link a {
   padding: 3rem;
   text-decoration: none;
   color: black;
+}
+
+.link:hover {
+  background: #999;
+}
+
+.link:active {
+  background: #333;
 }
 
 @media only screen and (max-width: 800px) {
