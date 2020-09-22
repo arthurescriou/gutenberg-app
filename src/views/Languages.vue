@@ -1,9 +1,14 @@
 <template lang="html">
   <div class="languages">
     <div class="title">
-      Choose language
+      Choose a language
     </div>
     <div class="grid">
+      <div class="language">
+        <router-link to="lang/all">
+          All
+        </router-link>
+      </div>
       <div
         class="language"
         v-for="lang in $store.state.languages"

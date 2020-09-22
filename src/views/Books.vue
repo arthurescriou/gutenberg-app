@@ -38,7 +38,12 @@
 <script>
 export default {
   mounted() {
-    this.$store.dispatch('fetchBooks', this.$route.params.lang)
+    const lang = this.$route.params.lang
+    if (lang === 'all') {
+      this.$store.dispatch('fetchBooks')
+    } else {
+      this.$store.dispatch('fetchBooks', lang)
+    }
   },
   data() {
     return {

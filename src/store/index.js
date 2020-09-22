@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
-import { getLanguages, getBooksPerLanguage } from '../service/books'
+import { getLanguages, getBooksPerLanguage, getBooks } from '../service/books'
 
 Vue.use(Vuex)
 
@@ -23,9 +23,8 @@ export default new Vuex.Store({
       store.commit('storeLanguages', languages)
     },
     fetchBooks: async (store, lang) => {
-      const books = await getBooksPerLanguage(lang)
-      console.log(books)
-      store.commit('storeBooks', books)
+      if (lang) store.commit('storeBooks', await getBooksPerLanguage(lang))
+      else store.commit('storeBooks', await getBooks())
     },
   },
   modules: {},
