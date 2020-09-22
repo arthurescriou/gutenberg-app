@@ -6,3 +6,5 @@ const getBooks = async () =>
 const getBooksPerLanguage = async language => data[language]
 
 const getLanguages = async () => Object.keys(data)
+
+export { getBooks, getBooksPerLanguage, getLanguages }
