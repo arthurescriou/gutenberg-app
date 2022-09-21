@@ -1,40 +1,16 @@
 <template>
   <div class="home">
     <img src="@/assets/book.png" alt="" />
-    <div class="title">
-      Gutenberg project
-    </div>
-    <div class="links">
-      <div class="link">
-        <router-link to="/lang">Find books</router-link>
-      </div>
-      <div class="link">
-        <a
-          target="_blank"
-          rel="noopener noreferrer"
-          href="https://www.gutenberg.org/"
-          >The Gutenberg project</a
-        >
-      </div>
-      <div class="link">
-        <a
-          target="_blank"
-          rel="noopener noreferrer"
-          href="https://www-apr.lip6.fr/~buixuan/daar2019"
-          >DAAR</a
-        >
-      </div>
-      <div class="link">
-        <a
-          target="_blank"
-          rel="noopener noreferrer"
-          href="https://github.com/arthurescriou/gutenberg-app"
-          >This app repository</a
-        >
-      </div>
-    </div>
+    
   </div>
 </template>
+
+<script>
+export default {
+  components: {}
+}
+</script>
+
 
 <style media="screen" scoped>
 .home {
